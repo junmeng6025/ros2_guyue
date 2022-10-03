@@ -38,3 +38,18 @@ to launch the turtlesim node and
 $ ros2 run turtlesim turtle_teleop_key
 ```
 to run the keyboard control node.  
+  
+# Common-used ROS2 commands  
+### 1) ros2 node + Enter
+- `ros2 node list` check the active nodes;  
+- `ros2 node info /node-name` check the information of a certain node;  
+### 2) ros2 topic + Enter
+- `ros2 topic list`  
+- `ros2 topic info /topic-name`  
+- `ros2 topic echo /topic-name` print the message from a topic in real-time;  
+- `ros2 topic pub --rate 1 /topic-name message-type "{title1: {x: val, y: val, z: val}, ...}"` publish a message to the topic;  
+eg.
+```bash
+$ ros2 topic pub --rate 1 /turtle1/cmd_vel geometry_msgs/msg/Twist "{linear: {x: 2.0, y: 0.0, z: 0.0}, angular: {x: 0.0, y: 0.0, z: 1.8}}"
+```
+- 
