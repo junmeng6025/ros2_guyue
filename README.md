@@ -2,5 +2,8 @@
 ROS2 tutorial by [GuyueHome](https://www.bilibili.com/video/BV16B4y1Q7jQ/?spm_id_from=333.337.search-card.all.click)  
   
 # ROS2 vs. ROS1  
-- No need of `rosmaster` anymore. Using `DDS` communication mechanism.  
-- More OOP-style programming.  
+Different:  
+- ROS2: No need of `rosmaster` anymore. Using `DDS` communication mechanism.  
+- ROS2: More OOP-style programming.  
+Similar:  
+- Similar framework and communication concepts: topic, service, action etc.  
