@@ -21,21 +21,21 @@ Check the [official documentation](https://docs.ros.org/en/humble/Installation/U
 ### 1) Talker and listener  
 Open two terminals, first source the ros2 to both of them, then
 ```bash
-$ ros2 run demo_nodes_cpp talker
+ros2 run demo_nodes_cpp talker
 ```
 for a demo-publisher wrote with C++ on one terminal and
 ```bash
-$ ros2 run demo_nodes_py listener
+ros2 run demo_nodes_py listener
 ```
 for a demo-subscriber wrote with Python on the other terminal.  
 ### 2) Turtlesim  
 Open 2 terminals, first source the ros2, then  
 ```bash
-$ ros2 run turtlesim  turtlesim_node
+ros2 run turtlesim  turtlesim_node
 ```
 to launch the turtlesim node and  
 ```bash
-$ ros2 run turtlesim turtle_teleop_key
+ros2 run turtlesim turtle_teleop_key
 ```
 to run the keyboard control node.  
   
@@ -50,6 +50,6 @@ to run the keyboard control node.
 - `ros2 topic pub --rate 1 /topic-name message-type "{title1: {x: val, y: val, z: val}, ...}"` publish a message to the topic;  
 eg.
 ```bash
-$ ros2 topic pub --rate 1 /turtle1/cmd_vel geometry_msgs/msg/Twist "{linear: {x: 2.0, y: 0.0, z: 0.0}, angular: {x: 0.0, y: 0.0, z: 1.8}}"
+ros2 topic pub --rate 1 /turtle1/cmd_vel geometry_msgs/msg/Twist "{linear: {x: 2.0, y: 0.0, z: 0.0}, angular: {x: 0.0, y: 0.0, z: 1.8}}"
 ```
 - 
