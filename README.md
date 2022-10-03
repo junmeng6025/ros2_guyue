@@ -56,6 +56,6 @@ ros2 topic pub --rate 1 /turtle1/cmd_vel geometry_msgs/msg/Twist "{linear: {x: 2
 - `ros2 service call /service-name service-type {service-parameters}`  
 eg. Add another turtle into the turtlesim  
 ```bash
-ros2 service call /spawn turtlesim/srv/Spawn "{x:2, y:2, theta: 0.2, name: ''}"
+ros2 service call /spawn turtlesim/srv/Spawn "{x: 2, y: 2, theta: 0.2, name: ''}"
 ```
 - 
