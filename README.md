@@ -40,10 +40,10 @@ ros2 run turtlesim turtle_teleop_key
 to run the keyboard control node.  
   
 # Common-used ROS2 commands  
-### 1) ros2 node + Enter
+### 1) `ros2 node + Enter`: check all the available cmds for node
 - `ros2 node list` check the active nodes;  
 - `ros2 node info /node-name` check the information of a certain node;  
-### 2) ros2 topic + Enter
+### 2) `ros2 topic + Enter`: check all the available cmds for topic
 - `ros2 topic list`  
 - `ros2 topic info /topic-name`  
 - `ros2 topic echo /topic-name` print the message from a topic in real-time;  
@@ -52,10 +52,23 @@ eg. Publish a velocity command of type `geometry_msgs/msg/Twist` to turtlesim's 
 ```bash
 ros2 topic pub --rate 1 /turtle1/cmd_vel geometry_msgs/msg/Twist "{linear: {x: 2.0, y: 0.0, z: 0.0}, angular: {x: 0.0, y: 0.0, z: 1.8}}"
 ```
-### 3) ros2 service + Enter
+### 3) `ros2 service + Enter`: check all the available cmds for service
 - `ros2 service call /service-name service-type {service-parameters}`  
 eg. Add another turtle into the turtlesim  
 ```bash
 ros2 service call /spawn turtlesim/srv/Spawn "{x: 2, y: 2, theta: 0.2, name: ''}"
 ```
-- 
+### 4) ros bag
+- `ros2 bag record /topic-name`
+eg. record the `/turtle1/cmd_vel`  
+```bash
+ros2 bag record /turtle1/cmd_vel
+```
+The recorded data would be saved to the current path of the terminal.   
+- `ros2 bag play bag-name`
+eg. play the recorded `/turtle1/cmd_vel`  
+```bash
+ros2 bag play rosbag2_2022_10_03-12_49_13
+```
+**Here** replace the bag name with yours correspondingly.  
+
