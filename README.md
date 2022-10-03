@@ -3,14 +3,16 @@ ROS2 tutorial by [GuyueHome](https://www.bilibili.com/video/BV16B4y1Q7jQ/?spm_id
 Version information:  
 ![ROS](https://img.shields.io/badge/ros2-humble-brightgreen)
 ![Ubuntu](https://img.shields.io/badge/ubuntu-20.04-brightgreen)  
-**Settings for [ROS2 coexistence with ROS](https://stackoverflow.com/questions/61333625/ros2-coexistence-with-ros).**  
+  
+**What if I have to install ROS2 with ROS already in my PC?**
+- Settings for [ROS2 coexistence with ROS](https://stackoverflow.com/questions/61333625/ros2-coexistence-with-ros).  
   
 # ROS2 vs. ROS1  
-Different:  
+**Different:**  
 - ROS2: No need of `rosmaster` anymore. Using `DDS` communication mechanism.  
 - ROS2: More OOP-style programming.  
   
-Similar:  
+**Similar:**  
 - Similar framework and communication concepts: topic, service, action etc.  
   
 
