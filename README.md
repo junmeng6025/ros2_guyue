@@ -11,3 +11,5 @@ Different:
   
 Similar:  
 - Similar framework and communication concepts: topic, service, action etc.  
+  
+Settings for [ROS2 coexistence with ROS](https://stackoverflow.com/questions/61333625/ros2-coexistence-with-ros).  
