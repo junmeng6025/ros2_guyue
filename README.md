@@ -48,8 +48,14 @@ to run the keyboard control node.
 - `ros2 topic info /topic-name`  
 - `ros2 topic echo /topic-name` print the message from a topic in real-time;  
 - `ros2 topic pub --rate 1 /topic-name message-type "{title1: {x: val, y: val, z: val}, ...}"` publish a message to the topic;  
-eg.
+eg. Publish a velocity command of type `geometry_msgs/msg/Twist` to turtlesim's topic `/turtle1/cmd_vel`:  
 ```bash
 ros2 topic pub --rate 1 /turtle1/cmd_vel geometry_msgs/msg/Twist "{linear: {x: 2.0, y: 0.0, z: 0.0}, angular: {x: 0.0, y: 0.0, z: 1.8}}"
+```
+### 3) ros2 service + Enter
+- `ros2 service call /service-name service-type {service-parameters}`  
+eg. Add another turtle into the turtlesim  
+```bash
+ros2 service call /spawn turtlesim/srv/Spawn "{x:2, y:2, theta: 0.2, name: ''}"
 ```
 - 
