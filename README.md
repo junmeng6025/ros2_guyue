@@ -5,7 +5,7 @@ Version information:
 ![Ubuntu](https://img.shields.io/badge/ubuntu-20.04-brightgreen)  
   
 **What if I have to install ROS2 with ROS already in my PC?**
-- Settings for [ROS2 coexistence with ROS](https://stackoverflow.com/questions/61333625/ros2-coexistence-with-ros).  
+- Settings for [ROS2 coexistence with ROS](https://stackoverflow.com/questions/61333625/ros2-coexistence-with-ros#:~:text=Based%20on%20Shrijit%20Singh%20comment%2C).  
   
 # ROS2 vs. ROS1  
 **Different:**  
