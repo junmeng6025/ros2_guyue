@@ -71,4 +71,7 @@ eg. play the recorded `/turtle1/cmd_vel`
 ros2 bag play rosbag2_2022_10_03-12_49_13
 ```
 **Here** replace the bag name with yours correspondingly.  
-
+  
+# Congigure the ROS2 developing environment
+## 1) Workspace
+## 2) Package
