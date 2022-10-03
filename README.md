@@ -2,7 +2,8 @@
 ROS2 tutorial by [GuyueHome](https://www.bilibili.com/video/BV16B4y1Q7jQ/?spm_id_from=333.337.search-card.all.click)  
 Version information:  
 ![ROS](https://img.shields.io/badge/ros2-humble-brightgreen)
-![Ubuntu](https://img.shields.io/badge/ubuntu-20.04-brightgreen)
+![Ubuntu](https://img.shields.io/badge/ubuntu-20.04-brightgreen)  
+**Settings for [ROS2 coexistence with ROS](https://stackoverflow.com/questions/61333625/ros2-coexistence-with-ros).**  
   
 # ROS2 vs. ROS1  
 Different:  
@@ -12,4 +13,4 @@ Different:
 Similar:  
 - Similar framework and communication concepts: topic, service, action etc.  
   
-Settings for [ROS2 coexistence with ROS](https://stackoverflow.com/questions/61333625/ros2-coexistence-with-ros).  
+
