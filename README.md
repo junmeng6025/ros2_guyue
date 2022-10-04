@@ -91,4 +91,23 @@ mkdir -p ~/colcon_ws/src  # create workspace and src folders
 cd colcon_ws
 colcon build  # compile the workspace
 ```
+after `colcon build` the folder structure would be like  
+```bash
+colcon_ws
+├── build
+│   └── COLCON_IGNORE
+├── install
+│   ├── COLCON_IGNORE
+│   ├── local_setup.sh  # source install/local_setup.sh
+│   ├── _local_setup_util_sh.py
+│   └── setup.sh
+├── log
+│   ├── build_2022-10-04_10-03-05
+│   │   └── logger_all.log
+│   ├── COLCON_IGNORE
+│   ├── latest -> latest_build
+│   └── latest_build -> build_2022-10-04_10-03-05
+└── src  # contains the source code
+
+```
 ## 2) Package
