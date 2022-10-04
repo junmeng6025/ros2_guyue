@@ -74,7 +74,7 @@ ros2 bag play rosbag2_2022_10_03-12_49_13
   
 # Configure the ROS2 developing environment
 ## 0) rosdepc
-`rosdepc` is a tool that can help to install all the dependencies of a workspace automatically.  
+`rosdepc` is a tool that can help to install all the dependencies for a workspace automatically.  
 ### install and initialize rosdepc
 ```bash
 sudo pip3 install rosdepc
