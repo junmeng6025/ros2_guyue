@@ -73,5 +73,20 @@ ros2 bag play rosbag2_2022_10_03-12_49_13
 **Here** replace the bag name with yours correspondingly.  
   
 # Configure the ROS2 developing environment
+## 0) rosdepc
+`rosdepc` is a tool that can help to install all the dependencies of a workspace automatically.  
+### install and initialize rosdepc
+```bash
+sudo pip3 install rosdepc
+sudo rosdepc init & rosdepc update
+```
+### install dependencies for workspace
+```bash
+# cd to the workspace root path
+rosdepc install -i --from-path src --rosdistro galactic -y
+```
 ## 1) Workspace
+```bash
+mkdir -p ~/colcon_ws/src
+```
 ## 2) Package
