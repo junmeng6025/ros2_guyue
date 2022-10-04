@@ -102,12 +102,19 @@ colcon_ws
 │   ├── _local_setup_util_sh.py
 │   └── setup.sh
 ├── log
-│   ├── build_2022-10-04_10-03-05
-│   │   └── logger_all.log
-│   ├── COLCON_IGNORE
-│   ├── latest -> latest_build
-│   └── latest_build -> build_2022-10-04_10-03-05
+│   └── ...
 └── src  # contains the source code
 
 ```
 ## 2) Package
+```
+ros2 pkg create --build-type <build-type> <package_name>
+```
+create a package
+```bash
+cd ~/colcon_ws/src
+ros2 pkg create --build-type ament_cmake learning_pkg_c       # C++
+ros2 pkg create --build-type ament_python learning_pkg_python # Python
+```
+for c++ package, there should be `package.xml` and `CMakeLists.txt`. The information of dependencies for `rosdepc` is exactly provided by `package.xml`.  
+for python package, there should be `package.xml`, `setup.cfg` and `setup.py`.  
