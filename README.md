@@ -103,7 +103,7 @@ colcon_ws
 │   └── setup.sh
 ├── log
 │   └── ...
-└── src  # contains the source code
+└── src  # contains the packages
 
 ```
 ## 2) Package
