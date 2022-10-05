@@ -119,3 +119,6 @@ ros2 pkg create --build-type ament_python learning_pkg_python # Python
 for **c++ package**, there should be `package.xml` and `CMakeLists.txt`.  
 for **python package**, there should be `package.xml`, `setup.cfg` and `setup.py`.  
 The information of dependencies for `rosdepc` is exactly provided by `package.xml`.  
+  
+# ROS node
+
