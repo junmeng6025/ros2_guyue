@@ -16,7 +16,7 @@ Version information:
 # Install ROS2
 Check the [official documentation](https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html)  
 **What if I have to install ROS2 with ROS already in my PC?**  
-- Settings for [ROS2 coexistence with ROS](https://stackoverflow.com/questions/61333625/ros2-coexistence-with-ros#:~:text=Based%20on%20Shrijit%20Singh%20comment%2C).  
+- Settings for [ROS2 coexistence with ROS](https://stackoverflow.com/questions/61333625/ros2-coexistence-with-ros#:~:text=create%20in%20your%20home%20directory%20the%20file%20.bash_aliases).  
 # Test your ROS2
 ## 1) Talker and listener  
 Open two terminals, first source the ros2 to both of them, then
