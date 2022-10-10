@@ -1,0 +1,14 @@
+package.xml
+setup.cfg
+setup.py
+../../build/learning_pkg_py/learning_pkg_py.egg-info/PKG-INFO
+../../build/learning_pkg_py/learning_pkg_py.egg-info/SOURCES.txt
+../../build/learning_pkg_py/learning_pkg_py.egg-info/dependency_links.txt
+../../build/learning_pkg_py/learning_pkg_py.egg-info/requires.txt
+../../build/learning_pkg_py/learning_pkg_py.egg-info/top_level.txt
+../../build/learning_pkg_py/learning_pkg_py.egg-info/zip-safe
+learning_pkg_py/__init__.py
+resource/learning_pkg_py
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

@@ -1,0 +1,48 @@
+[8.273s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[8.273s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='sequential', install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f9872b91b20>>, merge_install=False, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f9872b91b20>, verb_name='build', verb_parser=CustomArgumentParser(prog='colcon build', usage=None, description='Build a set of packages.', formatter_class=<class 'colcon_core.command.CustomFormatter'>, conflict_handler='error', add_help=True))
+[8.672s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[8.673s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[8.673s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[8.673s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/jun/ros2_guyue/colcon_ws'
+[8.673s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[8.673s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[8.673s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[8.673s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[8.673s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[8.736s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[8.736s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[8.736s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[8.737s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[8.737s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[8.737s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[8.737s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[8.737s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[8.737s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[8.737s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[8.737s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[8.737s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[8.737s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[8.737s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[8.737s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[8.738s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[8.738s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[8.738s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[8.738s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[8.738s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[8.738s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[8.738s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[8.738s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[8.738s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[8.738s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[8.738s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[8.738s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[8.885s] INFO:colcon.colcon_core.executor:Executing jobs using 'sequential' executor
+[8.888s] DEBUG:colcon.colcon_core.executor.sequential:closing loop
+[8.888s] DEBUG:colcon.colcon_core.executor.sequential:loop closed
+[8.888s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[8.888s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[8.932s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[8.933s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jun/ros2_guyue/colcon_ws/install/local_setup.sh'
+[8.933s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jun/ros2_guyue/colcon_ws/install/_local_setup_util_sh.py'
+[8.935s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jun/ros2_guyue/colcon_ws/install/setup.sh'
+[8.936s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/jun/.local/lib/x86_64-linux-gnu/cmake/gazebo/' in the environment variable CMAKE_PREFIX_PATH doesn't exist

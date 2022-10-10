@@ -1,0 +1,6 @@
+{
+    "python.analysis.extraPaths": [
+        "/home/jun/anaconda3/envs/nice-slam/lib/python3.7/site-packages",
+        "./rclpy_ws/src/rclpy/rclpy"
+    ]
+}

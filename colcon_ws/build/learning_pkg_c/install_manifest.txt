@@ -1,0 +1,15 @@
+/home/jun/ros2_guyue/colcon_ws/install/learning_pkg_c/share/ament_index/resource_index/package_run_dependencies/learning_pkg_c
+/home/jun/ros2_guyue/colcon_ws/install/learning_pkg_c/share/ament_index/resource_index/parent_prefix_path/learning_pkg_c
+/home/jun/ros2_guyue/colcon_ws/install/learning_pkg_c/share/learning_pkg_c/environment/ament_prefix_path.sh
+/home/jun/ros2_guyue/colcon_ws/install/learning_pkg_c/share/learning_pkg_c/environment/ament_prefix_path.dsv
+/home/jun/ros2_guyue/colcon_ws/install/learning_pkg_c/share/learning_pkg_c/environment/path.sh
+/home/jun/ros2_guyue/colcon_ws/install/learning_pkg_c/share/learning_pkg_c/environment/path.dsv
+/home/jun/ros2_guyue/colcon_ws/install/learning_pkg_c/share/learning_pkg_c/local_setup.bash
+/home/jun/ros2_guyue/colcon_ws/install/learning_pkg_c/share/learning_pkg_c/local_setup.sh
+/home/jun/ros2_guyue/colcon_ws/install/learning_pkg_c/share/learning_pkg_c/local_setup.zsh
+/home/jun/ros2_guyue/colcon_ws/install/learning_pkg_c/share/learning_pkg_c/local_setup.dsv
+/home/jun/ros2_guyue/colcon_ws/install/learning_pkg_c/share/learning_pkg_c/package.dsv
+/home/jun/ros2_guyue/colcon_ws/install/learning_pkg_c/share/ament_index/resource_index/packages/learning_pkg_c
+/home/jun/ros2_guyue/colcon_ws/install/learning_pkg_c/share/learning_pkg_c/cmake/learning_pkg_cConfig.cmake
+/home/jun/ros2_guyue/colcon_ws/install/learning_pkg_c/share/learning_pkg_c/cmake/learning_pkg_cConfig-version.cmake
+/home/jun/ros2_guyue/colcon_ws/install/learning_pkg_c/share/learning_pkg_c/package.xml

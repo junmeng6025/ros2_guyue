@@ -1,0 +1,3 @@
+[console_scripts]
+node_helloworld = learning_node.node_helloworld:main
+node_helloworld_oop = learning_node.node_helloworld_class:main
